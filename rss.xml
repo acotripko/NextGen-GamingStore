@@ -1,0 +1,18 @@
+<!DOCTYPE xml>
+<rss version="2.0">
+<channel>
+<title>Info</title>
+<link>https://cile24.github.io/Poslasticarnica-Aleksic/index.html</link>
+<description>Bitan info</description>
+<item>
+<title>Prodavnica</title>
+<link>https://cile24.github.io/Poslasticarnica-Aleksic/proizvodi.html</link>
+<description>Ovde mozete kupiti nase proizvode</description>
+</item>
+<item>
+<title>Kontakt</title>
+<link>https://cile24.github.io/Poslasticarnica-Aleksic/o.nama.html</link>
+<description>Ovde nas mozete kontaktirati</description>
+</item>
+</channel>
+</rss>

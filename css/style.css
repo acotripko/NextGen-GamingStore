@@ -1,0 +1,122 @@
+body {
+    background-color: #1c1c1e;
+    color: #f0f0f0;
+   
+
+}
+
+.navbar, .footer, .card {
+    background-color: #2a2a2d;
+    
+}
+.navbar{
+    font-size: 22px;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ff4500;
+    border-radius: 15px;
+}
+
+.footer {
+    color: #f0f0f0;
+    
+}
+
+.btn-custom {
+    background-color: #ff4500;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #ff6500;
+}
+
+.product-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.hero {
+    background: url(css/slike/pozaadina3.jpg) no-repeat center center/cover;
+    height: 400px;
+}
+.form-control {
+    background-color: #2a2a2d;
+    color: white;
+    border: 1px solid #555;
+    
+}
+.display-4{
+    color: white;
+    
+}
+
+
+.form-control:focus {
+    border-color: #ff4500;
+    box-shadow: none;
+}
+
+a {
+    color: #ff4500;
+}
+
+a:hover {
+    color: #ff6500;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded {
+    border-radius: .375rem;
+}
+.navbar-nav .nav-link.active {
+    color: #f8f9fa; 
+    font-weight: bold; 
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #adb5bd; 
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border: none; 
+}
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: fadeIn 0.5s ease-in-out;
+}
+.hero {
+    animation: fadeIn 0.5s ease-in-out;
+}
+.row  {
+    animation: fadeIn 0.5s ease-in-out;
+}
+.text-center{
+    animation: fadeIn 0.9s ease-in-out;
+}
+.mb-4 {
+    animation: fadeIn 0.9s ease-in-out;
+}   
